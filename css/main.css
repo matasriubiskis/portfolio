@@ -1,0 +1,102 @@
+
+
+
+.contact a {
+    color: #1D1D1D;
+    font-size: 42px;
+    transition: all 0.5s;
+    margin: 0 10px;
+    text-align: center;
+    top: 25%;
+    /* width: 100%; */
+    left: 0;
+}
+
+.contact a:hover {
+    transform: scale(1.1);
+    color: white;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption2 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    /* width: 100%; */
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+        padding-top: 18px;
+        padding-right: 18px;
+        padding-bottom: 18px;
+        padding-left: 18px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.border {
+    background-color: #111;
+    color: #fff;
+    max-width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+}
+
+div {
+    display: block;
+}
+.parallax1 { 
+    background-image: url("../img/background.jpg");
+    height: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax2 { 
+
+    background-image: url("../img/background2.jpg");
+    height: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    background-image: url("../img/background3.jpg");
+    height: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
