@@ -100,3 +100,8 @@ div {
 
 
 
+@media only screen and (max-device-width: 1366px) {
+    .parallax, .parallax2, .parallax3 {
+      background-attachment: scroll;
+    }
+  }
