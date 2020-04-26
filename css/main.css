@@ -105,3 +105,18 @@ div {
       background-attachment: scroll;
     }
   }
+
+
+
+ @media only screen and (max-width: 800px) {
+    .parallax3 {
+       padding-top: 420px;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .cf7_custom_style_1 {
+       padding-left: 0;
+       padding-right: 0;
+    }
+ }
