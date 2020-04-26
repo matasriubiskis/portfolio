@@ -63,6 +63,7 @@ body, html {
     border-radius: 5px;
 }
 
+
 div {
     display: block;
 }
@@ -98,25 +99,33 @@ div {
     background-size: cover;
 }
 
+.text-block {
+    font-size: 12px
+}
 
-
-@media only screen and (max-device-width: 1366px) {
+/*
+@media only screen and (max-device-width: 1366px) and (min-device-width: 420px) {
     .parallax, .parallax2, .parallax3 {
       background-attachment: scroll;
     }
   }
+  */
 
-
-
- @media only screen and (max-width: 800px) {
-    .parallax3 {
-       padding-top: 420px;
+@media only screen and (max-device-width: 800px){
+    .text-block {
+        font-size: 12px
     }
- }
- 
- @media only screen and (max-width: 600px) {
-    .cf7_custom_style_1 {
-       padding-left: 0;
-       padding-right: 0;
+@media only screen and (max-device-width: 800px){
+    .text-block {
+        font-size: 12px
     }
- }
+}
+
+/*
+@media only screen and (max-device-width: 800px){
+    .row {
+        margin-right: -100px;
+        margin-left: -100px;
+    }
+}
+ */
