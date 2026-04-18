@@ -1,92 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>  
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Work+Sans:500,600" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
-        <title>Matas Sriubiskis</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matas Sriubiskis</title>
+    <meta name="description" content="Personal site of Matas Sriubiskis — builder, founder, tinkerer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="grid-bg" aria-hidden="true"></div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164480039-1"></script>
-        <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-164480039-1');
-        </script>
+    <header class="site-nav">
+        <a href="index.html" class="logo"><span class="caret">&gt;</span> matas</a>
+        <nav>
+            <a href="index.html" class="active">home</a>
+            <a href="projects.html">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
 
-    </head>
-
-    <body>
-        <div class="parallax1">
-                <!-- Header -->
-                <div class="container main">
-                                <div class="caption">
-                                    <span class="border">MATAS SRIUBISKIS</span>
-                                </div>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow-label">I'm <span class="word-cycle" id="wordCycle" aria-live="polite">a builder.</span></p>
+                <h1>Matas Sriubiskis</h1>
+                <p class="tagline">Product leader building at the intersection of AI, robotics, and the physical world. Currently shipping edge AI at Instacart — based in Toronto.</p>
+                <div class="cta-row">
+                    <a href="projects.html" class="btn btn-primary">view projects <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#contact" class="btn btn-ghost">get in touch</a>
                 </div>
-        </div> 
-        <!-- about me section -->
-
-        <div class="parallax2">
-                <!-- Section about my projects -->
-                <div class="container project">
-                        <div class="row mt-0">
-                                <div class="col-12 d-flex align-items-center mt-5" style='flex-direction: column;'>
-                                        <div class="border mt-3 mb-3">ABOUT ME</div>
-                                </div>
-                                <div class="col-12 d-flex align-items-center mt-2 w-100" style='flex-direction: column;'>
-                                        <div class="border text-block mt-2 mb-3">
-                                            <p>                                          
-                                            A tinkerer and innovator, living in Toronto, Canada, always in search of new and exciting challenges. From starting my own companies, to challenging myself to new learn skills, I've always been a passionate explorer of the world around me. As long as it is within the confines of the law, and I can learn from it, I will do it. 
-                                            </p>
-                                            <p>  
-                                            My unique multidisciplinary approach to problem solving allows me to use First Principles thinking to design and implement a variety of solutions, with detailed consideration given to the project’s constraints.
-                                            </p>
-                                            <p> 
-                                            I enjoy public speaking, pitching, and leading agile teams. I thrive when working with startups to help them discover Product Market Fit, funding, and growth, though I have a passion for solving complicated hardware and technology problems. If you want to connect with me, feel free to reach out through one of my social profiles below!
-                                            </p> 
-                                            <p>
-                                            I have two goals in life: make cool things and learn as much as I can. So far, I can say I’m pretty proud of my achievements on both of those fronts.
-                                            </p>
-                                        </div>
-                                </div>
-                        </div>
-                </div>                
-        </div>
-        
-        <div class="parallax3">
-                <!-- Contact section and social profiles -->
-                <!---->
-                <div class="container contact">
-                    <div class="row mt-0">
-                        <div class="col-12 d-flex align-items-center mt-5" style='flex-direction: column;'>
-                                <div class="border mt-5 mb-3">CONTACT ME</div>
-                                <div class="contact d-flex justify-content-center">
-                                        <a href="https://www.linkedin.com/in/msriubiskis/" alt="connect with me on linkedin" title="connect with me on linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                        <a href="https://github.com/matasriubiskis/" alt="See my github" title="See my github"><i class="fa fa-github" aria-hidden="true"></i></i></a>
-                                        <a href="mailto:msriubiskis@gmail.com" alt="Send me an email" title="Send me an email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                                        <a href="https://angel.co/msriubiskis" alt="connect on angellist" title="connect on angellist"><i class="fa fa-angellist" aria-hidden="true"></i></a>
-                                        <a href="https://twitter.com/MSriubiskis" alt="follow me on twitter" title="follow me on twitter"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                                </div>
-                        </div>
-                        
-                    </div>
-                       
-                    </div>
+            </div>
+            <div class="hero-portrait">
+                <div class="portrait-frame">
+                    <img src="img/headshot.jpg" alt="Portrait of Matas Sriubiskis" loading="eager">
                 </div>
-        
-        </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-      </body>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="section-head">
+                <span class="section-num">01</span>
+                <h2>about</h2>
+            </div>
+            <div class="about-body">
+                <p>I build products where AI, robotics, and messy physical-world problems meet.</p>
+                <p>Today I'm a Senior Product Manager at Instacart, leading edge AI, sensor fusion, and computer vision for <strong>Caper</strong> — the AI-powered shopping cart deployed across the US, Australia, and Europe. Before that, I was Head of Product at Ocado Technology, where I scaled <strong>On-Grid Robot Pick</strong> from prototype to a robotic picking system in full production.</p>
+                <p>Before the robots came hardware. I led several IoT products at ecobee, and before that co-founded <strong>RockMass Technologies</strong> — a mining-tech startup that graduated from HAX, the hardware accelerator in Shenzhen.</p>
+                <p>On the side, I make natural wine with friends through <strong>Bon Sang!</strong>, teach product management at <strong>BrainStation</strong>, and sit on the board of a Canadian non-profit managing land for conservation, Scouting, and Lithuanian heritage.</p>
+                <p>Two goals in life: make cool things, and learn as much as I can. So far, I'm pretty proud of my progress on both fronts.</p>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-head">
+                <span class="section-num">02</span>
+                <h2>contact</h2>
+            </div>
+            <p class="contact-lead">Say hi — I'm usually down to chat about hardware, startups, or whatever else you're building.</p>
+            <ul class="contact-list">
+                <li>
+                    <a id="emailLink" href="#" rel="nofollow">
+                        <span class="contact-label">email</span>
+                        <span class="contact-value">send me a note <span aria-hidden="true">&rarr;</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/msriubiskis/" target="_blank" rel="noopener">
+                        <span class="contact-label">linkedin</span>
+                        <span class="contact-value">in/msriubiskis <span aria-hidden="true">&rarr;</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/matasriubiskis/" target="_blank" rel="noopener">
+                        <span class="contact-label">github</span>
+                        <span class="contact-value">@matasriubiskis <span aria-hidden="true">&rarr;</span></span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <span>&copy; <span id="year"></span> Matas Sriubiskis</span>
+        <span class="footer-meta">built with care</span>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Hero word cycle
+        (function () {
+            const words = [
+                'a builder.',
+                'a founder.',
+                'a tinkerer.',
+                'a teacher.',
+                'a vintner.',
+                'a product leader.',
+                'curious.'
+            ];
+            const el = document.getElementById('wordCycle');
+            if (!el) return;
+            let i = 0;
+            setInterval(function () {
+                i = (i + 1) % words.length;
+                el.classList.add('is-changing');
+                setTimeout(function () {
+                    el.textContent = words[i];
+                    el.classList.remove('is-changing');
+                }, 320);
+            }, 2400);
+        })();
+
+        // Obfuscated email — assembled on first interaction so scrapers
+        // that don't run JS never see the address in page source.
+        (function () {
+            const link = document.getElementById('emailLink');
+            if (!link) return;
+            const user = ['msriubiskis'];
+            const domain = ['gmail', 'com'];
+            const assemble = function () {
+                const addr = user.join('') + '@' + domain.join('.');
+                if (!link.href || !link.href.startsWith('mailto:')) {
+                    link.href = 'mailto:' + addr;
+                }
+            };
+            link.addEventListener('mouseover', assemble, { once: false });
+            link.addEventListener('focus', assemble, { once: false });
+            link.addEventListener('touchstart', assemble, { once: false, passive: true });
+            // Fallback: handle click even if none of the above fired (e.g. keyboard Enter on some browsers)
+            link.addEventListener('click', function (e) {
+                if (!link.href || !link.href.startsWith('mailto:')) {
+                    e.preventDefault();
+                    assemble();
+                    window.location.href = link.href;
+                }
+            });
+        })();
+    </script>
+</body>
 </html>
