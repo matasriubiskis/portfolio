@@ -6,6 +6,8 @@
     <title>Matas Sriubiskis</title>
     <meta name="description" content="Product leader building at the intersection of AI, robotics, and the physical world. Currently at Instacart.">
     <meta name="author" content="Matas Sriubiskis">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="canonical" href="https://www.sriuba.me/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -50,7 +52,7 @@
     <main>
         <section class="hero">
             <div class="hero-text">
-                <p class="eyebrow-label">I'm <span class="word-cycle" id="wordCycle" aria-live="polite">a builder.</span></p>
+                <p class="eyebrow-label" aria-hidden="true">I'm <span class="word-cycle" id="wordCycle">a builder.</span></p>
                 <h1>Matas Sriubiskis</h1>
                 <p class="tagline">Product leader building at the intersection of AI, robotics, and the physical world. Currently shipping edge AI at Instacart — based in Toronto.</p>
                 <div class="cta-row">
@@ -116,7 +118,7 @@
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        // Hero word cycle
+        // Hero word cycle — respects prefers-reduced-motion
         (function () {
             const words = [
                 'a builder.',
@@ -129,6 +131,9 @@
             ];
             const el = document.getElementById('wordCycle');
             if (!el) return;
+            const mql = window.matchMedia('(prefers-reduced-motion: reduce)');
+            if (mql.matches) return; // user has asked for less motion; leave static
+
             let i = 0;
             setInterval(function () {
                 i = (i + 1) % words.length;
