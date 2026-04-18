@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Matas Sriubiskis</title>
+    <meta name="description" content="Page not found.">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Analytics — GoatCounter (privacy-first, no cookies) -->
+    <script data-goatcounter="https://sriuba.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+    <div class="grid-bg" aria-hidden="true"></div>
+
+    <header class="site-nav">
+        <a href="/" class="logo"><span class="caret">&gt;</span> matas</a>
+        <nav>
+            <a href="/">home</a>
+            <a href="/projects.html">projects</a>
+            <a href="/#contact">contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="error-page">
+            <p class="eyebrow">// error 404</p>
+            <h1>this page is a ghost</h1>
+            <p class="error-lead">The URL you tried doesn't exist — maybe a typo, maybe a broken link from somewhere out there on the internet. Either way, you've found a part of the site that was never built.</p>
+            <div class="cta-row">
+                <a href="/" class="btn btn-primary">back to home <span aria-hidden="true">&rarr;</span></a>
+                <a href="/projects.html" class="btn btn-ghost">see projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>&copy; <span id="year"></span> Matas Sriubiskis</span>
+        <span class="footer-meta">built with care</span>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
